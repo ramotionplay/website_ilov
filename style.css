@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+ background: #ed0268;
+background: radial-gradient(circle, rgba(237, 2, 104, 1) 0%, rgba(255, 20, 20, 1) 100%);
+  color: #333;
+  background-attachment: fixed;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #ed0268ab;
+    backdrop-filter: saturate(160%) blur(60px);
+    border-radius: 20px;
+    color: white;
+}
+
+section {
+  padding: 60px 20px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.banner {
+  background: url('ulua.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.158);
+  backdrop-filter: saturate(160%) blur(60px);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+.card img {
+  width: 30%;
+  border-radius: 10px;
+display: block;
+margin: 0 auto;
+}
+
+.proyectos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+.proyectos li {
+  background: rgba(255, 255, 255, 0.158);
+  backdrop-filter: saturate(160%) blur(60px);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+
+}
+
+.proyectos li img{
+    max-width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.historia-item {
+    padding: 20px 20px;
+    border-radius: 20px;
+  background: rgba(255, 255, 255, 0.158);
+  backdrop-filter: saturate(160%) blur(60px);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 30px;
+  align-items: center;
+}
+
+.historia-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.historia-item div {
+  flex: 1;
+  min-width: 280px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+   background: rgba(255, 255, 255, 0.158);
+  backdrop-filter: saturate(160%) blur(60px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #ff0055;
+  color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: rgb(245, 245, 245);
+}
+
+h3{
+    color: white;
+}
+
+#parque:hover{
+    background-image: url(parque.jpeg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#sombras:hover{
+    background-image: url(ulua.jpg);
+    background-size: cover;
+    background-position: center center;
+}
